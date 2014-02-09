@@ -48,13 +48,13 @@ public class MainActivity extends Activity {
      
         
         
-      /*  myItemizedOverlay = new MyItemizedOverlay(marker, resourceProxy);
+        myItemizedOverlay = new MyItemizedOverlay(marker, resourceProxy);
         mapView.getOverlays().add(myItemizedOverlay);
          
-        GeoPoint myPoint1 = new GeoPoint(0*1000000, 0*1000000);
-        myItemizedOverlay.addItem(myPoint1, "myPoint1", "myPoint1");
-        GeoPoint myPoint2 = new GeoPoint(50*1000000, 50*1000000);
-        myItemizedOverlay.addItem(myPoint2, "myPoint2", "myPoint2");*/
+        GeoPoint locationOne = new GeoPoint(0*1000000, 0*1000000);
+        myItemizedOverlay.addItem(locationOne, "Location 1", "First Location");
+        GeoPoint locationTwo = new GeoPoint(50*1000000, 50*1000000);
+        myItemizedOverlay.addItem(locationTwo, "Location 2", "Second Location");
          
     } 
     
